@@ -1,0 +1,65 @@
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Logs ###
+*.log
+logs/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Eclipse / STS ###
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath/
+.springBeans/
+.sts4-cache/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
+### Java ###
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Maven Wrapper (keep the scripts, ignore jar) ###
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ out directory ###
+out/
+
+### Exception files ###
+hs_err_pid*
+replay_pid*
+
+### Keep target for source directories only ###
+!**/src/main/**/target/
+!**/src/test/**/target/
