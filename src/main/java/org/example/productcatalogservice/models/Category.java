@@ -22,6 +22,6 @@ public class Category extends BaseModel {
     @Column(nullable = false, length = 1000)
     private String description;
 
-    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Product> products;
 }
